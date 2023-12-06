@@ -1,6 +1,7 @@
 VERSION=v2.4
 
-prefix=/usr/local
+prefix=/root/ffmpeg-static/target
+INC=-I$(prefix)/include
 
 incdir=$(prefix)/include/librtmp
 bindir=$(prefix)/bin
