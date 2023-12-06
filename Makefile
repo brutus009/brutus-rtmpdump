@@ -1,6 +1,7 @@
 VERSION=v2.4
 
 prefix=/usr/local
+INC=-I$(prefix)/include
 
 CC=$(CROSS_COMPILE)gcc
 LD=$(CROSS_COMPILE)ld
