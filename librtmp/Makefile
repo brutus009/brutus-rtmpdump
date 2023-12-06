@@ -65,7 +65,7 @@ INSTALL_IMPLIB_darwin=
 INSTALL_IMPLIB_mingw=cp librtmp.dll.a $(LIBDIR)
 INSTALL_IMPLIB=$(INSTALL_IMPLIB_$(SYS))
 
-SHARED=yes
+SHARED=no
 SODEF_yes=-fPIC
 SOLIB_yes=librtmp$(SO_EXT)
 SOINST_yes=install_so
